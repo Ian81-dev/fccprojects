@@ -1,0 +1,155 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>freeCodeCamp Survey Form</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+<body>
+    
+<h1 id="title">freeCodeCamp Survey Form</h1>
+<p id="description"><i>Thank you for taking the time to help us improve the platform</i></p>
+<form id="survey-form">
+  <div>
+<fieldset>
+  <label id="name-label">Name<input required id="name" type="text" placeholder="Enter your name" /></label>
+<label id="email-label">Email<input required id="email" type="email" placeholder="Enter your email" /></label>
+<label id="number-label">Age<span class="small">(optional)</span><input id="number" type="number" min="10" max="99" placeholder="Age" /></label>
+</fieldset>
+<fieldset>
+  <label for="dropdown">Which option best describes your current role?<select id="dropdown"><option value="">Select current role</option><option value="1">Student</option><option value="2">Full Time Job</option><option value="3">Full Time Learner</option><option value="4">Prefer Not To Say</option><option value="5">Other</option></select></label>
+</fieldset>
+<fieldset>
+  <label>Would you recommend freeCodeCamp to a friend?</label>
+  <label for="definitely"><input value="1" id="definitely"  name="yes no" class="inline" type="radio"  />Definitely</label>
+  <label for="maybe"><input value="2" id="maybe" name="yes no" class="inline" type="radio" />Maybe</label>
+  <label for="sure"><input value="3" id="sure" name="yes no" class="inline" type="radio" />Not Sure</label>
+</fieldset>
+<fieldset>
+  <label for="feature">What is your favorite feature of freeCodeCamp?<select id="feature"><option value="">Select an option</option><option value="1">Challenges</option><option value="2">Projects</option><option value="3">Community</option><option value="4">Open Source</option></select></label>
+</fieldset>
+<fieldset>
+  <label>What would you like to see improved?<span class="small">(check all that apply)</span></label>
+  <label for="frontend"><input value="1" id="frontend" class="inline" type="checkbox"> Front-end projects</label>
+  <label for="backend"><input value="2" id="backend" class="inline" type="checkbox"> Back-end projects</label><label for="data"><input value="3" id="data" class="inline" type="checkbox"> Data Visualisation</label><label for="challenges"><input value="4" id="challenges" class="inline" type="checkbox"> Challenges</label><label for="community"><input value="5" id="community" class="inline" type="checkbox"> Open Source Community</label><label for="gitter"><input value="6" id="gitter" class="inline" type="checkbox"> Gitter help rooms</label><label for="videos"><input value="7" id="videos" class="inline" type="checkbox"> Videos</label><label for="meetups"><input value="8" id="meetups" class="inline" type="checkbox"> City Meetups</label><label for="wiki"><input value="9" id="wiki" class="inline" type="checkbox"> Wiki</label><label for="forum"><input value="10" id="forum" class="inline" type="checkbox"> Forum</label><label for="courses"><input value="11" id="courses" class="inline" type="checkbox"> Additional Courses</label>
+</fieldset>
+<fieldset>
+  <label for="suggestions">Any comments or suggestions?</label>
+  <textarea id="suggestions" placeholder="Enter your comment here..." rows="5"></textarea>
+</fieldset>
+<input id="submit" class="submit" type="submit" value="Submit">
+</div>
+</form>
+
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+h1{
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 8px;
+
+font-weight: normal;
+}
+
+p {
+  margin-top:0;
+margin-bottom: 30px;
+font-size: 16px;
+text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 600px;
+  min-width: 300px;
+  margin: auto;
+}
+
+label{
+  display: block;
+  margin: 0.5rem 0;
+
+}
+
+
+input[type="radio"] {
+  width:1.2em;
+  height:1.3em;
+  vertical-align: bottom;
+}
+
+input[type="checkbox"] {
+  width:1.2em;
+  height:1.3em;
+  vertical-align: bottom;
+}
+
+input[type="text"],input[type="email"], input[type="number"], select {
+  border-radius: 5px;
+}
+
+input, select, textarea{
+  width: 100%;
+  margin: 5px 0 0 0;
+  font-size: 15px;
+}
+
+input, select {
+  height: 35px;
+}
+
+.inline {
+  height: unset;
+  width: unset;
+  margin: 0 0.3em 0 0;
+}
+
+body{
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg); 
+  font-family: Poppins,sans-serif;
+  padding: 30px;
+  color: white;
+}
+
+div{
+  background-color: rgba(47, 13, 139, 0.85);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 40px;
+}
+
+fieldset{
+  border: none;
+  padding:0 0 5px 0;
+  
+}
+
+.submit {
+  margin:0.8rem 0
+}
+
+.small {
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  background-color: #37AF65;
+  color: white;
+  height:30px;
+}
+
+
+** end of undefined **
+
