@@ -1,0 +1,134 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title id="title">Jay Chou</title>
+  </head>
+  <body>
+    <main id="main">
+      <div id="header">
+      <h1 id="title">Jay Chou</h1>
+      <h2>The Music Teacher Wannabe Who Became the Legendary King of Mandopop</h2>
+      </div>
+      <figure id="img-div">
+        <img id="image" src="https://assets.fastcompany.com/image/upload/w_1280,f_auto,q_auto,fl_lossy/fc/3018785-poster-jay-chou.jpg" alt="Jay Chou's younger self, at the peak of his music career" width="250px"/>
+        <figcaption id="img-caption">Young Jay Chou at the peak of his music career </figcaption>
+      </figure>
+      <div id="tribute-info">
+        <h3>Here is how a superstar was born</h3>
+        <ul class="timeline">
+          <li><span>1979</span> - Jay Chou was born on 18 Jan, 1979 in Linkou, Taiwan</li>
+          <li><span>1998</span> - Jay could be on the path of becoming a music teacher, if it wasn't for his friend who registered him for the Super New Talent King competition.</li>
+          <li><span>1998</span> - It was also then, the famous celebrity-host spotted his talent in writing great melodies, despite him only being there as the piano accompaniment.</li>
+          <li><span>2000</span> - After failing to write songs that famous singers accept, Jay switched gears and debuted with his first album 'Jay' under the recommendation of label manager JR Yang.</li>
+          <li><span>2001</span> - Jay returns with his next album, 'Fantasy'. Hit songs such as 'Simple Love' and 'Love Before BC' became classics still being sang today.</li>
+          <li><span>2003</span> - The definitive album for Jay emerged. 'East Wind Breaks' would mark the start of Jay's iconic Chinese-style modern pop that took the world by storm.</li>
+          <li><span>2005</span> - Jay stepped into the world of acting with his first ever movie 'Initial D', a film based on the Japanese manga. 2 songs from the movie went into his 'November's Chopin' album.</li>
+          <li><span>2011</span> - Jay joins Seth Rogen in 'Green Hornet', playing as 'Kato'. The role was helmed by Bruce Lee in the previous iteration of the movie.</li>
+          <li><span>2015</span> - Jay continued to make his mark in the entertainment industry, while getting married in 2015, to Hannah Quinlivan.</li>
+          <li><span>2022</span> - Jay's third child was born.</li>
+        </ul>
+        <p><i>'My era will never be over' - Jay Chou at an open talk session in China</i></p>
+        <h3>To find out more about the King of Mandopop, read his <a id="tribute-link" href="https://en.wikipedia.org/wiki/Jay_Chou" target="_blank">Wiki page</a>.</h3>
+      </div>
+
+
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+h1 {
+  font-family: Serif, sans-serif;
+  font-size: 60px;
+  text-align: center;
+
+}
+
+h2{
+  font-family: Serif, sans-serif;
+  font-weight: normal;
+  font-size: 17px;
+  text-align: center;
+
+}
+
+#main {
+  text-align: center;
+}
+
+#header {
+  background-color: rgb(240,240,240);
+  padding-bottom: 10px;
+}
+
+#img-div {
+  padding: 40px;
+  margin: 0;
+  background-color: rgb(248,248,248)
+  
+
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  
+
+}
+
+#img-caption {
+  margin:15px 0 5px 0;
+}
+
+
+
+#tribute-info {
+  background-color:	rgb(240,240,240) 
+}
+
+h3 {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+span {
+  font-weight: bold;
+}
+
+.timeline {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  text-align: left;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+ul li {
+  margin-bottom: 20px;
+
+}
+
+p {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  padding-right: 25px;
+
+}
+
+
+** end of undefined **
+
